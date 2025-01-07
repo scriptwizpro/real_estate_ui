@@ -12,8 +12,11 @@ function Navbar() {
         <a href="/">About</a>
         <a href="/">Contact</a>
         <a href="/">Agents</a>
+        </div>        
+        <div className="right">
+        <a href="/">Sign in</a>
+        <a href="/">Sign up</a>
         </div>
-        <div className="right">Right</div>
     </nav>
   );
 }

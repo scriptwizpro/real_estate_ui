@@ -6,7 +6,7 @@ function App() {
     <div className="layout">
       <Navbar />      
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
