@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav>
         <div className="left">
-        <a href="/">
+        <a href="/" className="logo">
             <img src="/logo.png" alt="logo" />
             <span>RealEstate</span>
         </a>
@@ -15,7 +15,7 @@ function Navbar() {
         </div>        
         <div className="right">
         <a href="/">Sign in</a>
-        <a href="/">Sign up</a>
+        <a href="/" className="register">Sign up</a>
         </div>
     </nav>
   );
