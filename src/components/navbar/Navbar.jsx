@@ -18,11 +18,13 @@ function Navbar() {
         </div>        
         <div className="right">
         <a href="/">Sign in</a>
-        <a href="/" className="register">Sign up</a>
+        <a href="/" className="register">
+        Sign up
+        </a>
         <div className="menuIcon">
           <img src="/menu.png"
           alt=""
-          onClick={()=> setOpen((prev) => !prev)}
+          onClick={() => setOpen((prev) => !prev)}
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
