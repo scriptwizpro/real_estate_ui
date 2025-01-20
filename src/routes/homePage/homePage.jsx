@@ -8,7 +8,7 @@ function HomePage() {
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
           <p>
-            Welcome to R. E. WebSite, where dreams of finding the perfect property
+            Welcome to R. E. App, where dreams of finding the perfect property
             come to life. Whether you’re searching for your dream home, a
             lucrative investment, or a cozy rental, our platform offers a
             seamless and personalized experience to meet all your real estate
