@@ -1,11 +1,8 @@
-import Navbar from "./components/navbar/Navbar"
 import "./layout.scss"
 import HomePage from "./routes/homePage/homePage";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
 } from "react-router-dom";
 import ListPage from "./routes/listPage/listPage";
 
@@ -23,11 +20,6 @@ function App() {
       element: <ListPage />,
     },
   ]);
-
-
-
-
-
 
 
 
