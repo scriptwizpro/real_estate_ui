@@ -46,7 +46,7 @@ export const listData = [
   {
     id: 5,
     title: "Charming Cottage in the Countryside",
-    img: "https://images.pexels.com/photos/322548/pexels-photo-322548.jpeg",
+    img: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
     bedroom: 2,
     bathroom: 1,
     price: 700,
