@@ -1,12 +1,16 @@
-import './singlePage.scss'
+import "./singlePage.scss";
 
 function SinglePage() {
   return (
     <div className="singlePage">
-      <div className='singlePage'></div>
-      <div className='features'></div>
+      <div className="details">
+        <div className="wrapper"></div>
+      </div>
+      <div className="features">
+        <div className="wrapper"></div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default SinglePage
+export default SinglePage;
