@@ -220,3 +220,32 @@ export const listData = [
     longitude: -2.5879,
   },
 ];
+
+export const singlePostData = {
+  id: 1,
+  title: "Beautiful Apartment",
+  price: 1200,
+  images: [
+    "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg",
+    "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg",
+    "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg",
+    "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg"
+  ],
+  bedRooms: 2,
+  bathroom: 1,
+  size: 861,
+  latitude: 51.5074,
+  longitude: -0.1278,
+  city: "London",
+  address: "1234 Broadway St",
+  school: "250m away",
+  bus: "100m away",
+  restaurant: "50m away",
+  description: "Future alike hill pull picture swim magic chain seed engineer"
+};
+
+export const userData = {
+  id: 1,
+  name: "John Doe",
+  img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+};
