@@ -32,7 +32,12 @@ function SinglePage() {
         </div>
       </div>
       <div className="features">
-        <div className="wrapper"></div>
+        <div className="wrapper">
+          <p className="title">General</p>
+          <p className="title">Sizes</p>
+          <p className="title">Nearby Places</p>
+          <p className="title">Locations</p>
+        </div>
       </div>
     </div>
   );
