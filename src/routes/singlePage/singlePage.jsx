@@ -1,9 +1,8 @@
-import "./singlePage.scss"
-import Slider from "../../components/slider/Slider"
-import Map from "../../components/map/Map"
-import { singlePostData } from "../../lib/dummydata"
-import { userData } from "../../lib/dummydata"
-
+import "./singlePage.scss";
+import Slider from "../../components/slider/Slider";
+import Map from "../../components/map/Map";
+import { singlePostData } from "../../lib/dummydata";
+import { userData } from "../../lib/dummydata";
 
 function SinglePage() {
   return (
@@ -26,9 +25,7 @@ function SinglePage() {
                 <span>{userData.name}</span>
               </div>
             </div>
-            <div className="bottom">
-              {singlePostData.description}
-            </div>
+            <div className="bottom">{singlePostData.description}</div>
           </div>
         </div>
       </div>
@@ -60,38 +57,40 @@ function SinglePage() {
           </div>
           <p className="title">Sizes</p>
           <div className="sizes">
-            <img src="/size.png" alt="" />
-            <span>80 sqft</span>
-          </div>
-          <div className="sizes">
-            <img src="/bed.png" alt="" />
-            <span>2 beds</span>
-          </div>
-          <div className="sizes">
-            <img src="/bath.png" alt="" />
-            <span>1 bathroom</span>
+            <div className="size">
+              <img src="/size.png" alt="" />
+              <span>80 sqft</span>
+            </div>
+            <div className="size">
+              <img src="/bed.png" alt="" />
+              <span>2 beds</span>
+            </div>
+            <div className="size">
+              <img src="/bath.png" alt="" />
+              <span>1 bathroom</span>
+            </div>
           </div>
           <p className="title">Nearby Places</p>
           <div className="listHorizontal">
-          <div className="feature">
-              <img src="/utility.png" alt="" />
+            <div className="feature">
+              <img src="/school.png" alt="" />
               <div className="featureText">
-                <span>Utilities</span>
-                <p>Renter is responsible</p>
+                <span>School</span>
+                <p>250m away</p>
               </div>
             </div>
             <div className="feature">
-              <img src="/pet.png" alt="" />
+              <img src="/bus.png" alt="" />
               <div className="featureText">
-                <span>Pet Policy</span>
-                <p>Pets Allowed</p>
+                <span>Bus Stop</span>
+                <p>100m away</p>
               </div>
             </div>
             <div className="feature">
-              <img src="/fee.png" alt="" />
+              <img src="/restaurant.png" alt="" />
               <div className="featureText">
-                <span>Property Fees</span>
-                <p>Must have 3x the rent in total household income</p>
+                <span>Restaurant</span>
+                <p>200m away</p>
               </div>
             </div>
           </div>

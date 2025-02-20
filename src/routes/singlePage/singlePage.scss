@@ -84,6 +84,34 @@ font-weight: 400;
         font-size: 18px;
         margin-bottom: 10px;
       }
+
+      .feature {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          background-color: rgba(254, 205, 81, 0.209);
+        }
+
+        .featureText {
+          span {
+            font-weight: bold;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .listVertical {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 10px;
+        background-color: white;
+        border-radius: 10px;
+      }
     }
   }
 }
