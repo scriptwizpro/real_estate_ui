@@ -4,6 +4,9 @@ import "./navbar.scss";
 
 function Navbar() {
   const [open,setOpen] = useState(false)
+
+  const user = true;
+
   return (
     <nav>
         <div className="left">
@@ -17,10 +20,21 @@ function Navbar() {
         <a href="/">Agents</a>
         </div>        
         <div className="right">
+        {user ? (
+          <div className='user'>
+            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""
+            />
+          <span>John Doe</span>
+          <link to="/profile"></link>
+          </div>
+        ) : (
+        <>
         <a href="/">Sign in</a>
         <a href="/" className="register">
         Sign up
         </a>
+        </>
+        )}
         <div className="menuIcon">
           <img src="/menu.png"
           alt=""
