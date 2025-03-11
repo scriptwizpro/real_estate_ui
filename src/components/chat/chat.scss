@@ -70,8 +70,37 @@
                 cursor: pointer;
             }       
         }
-        .center {}
-        .bottom {}
+        .center {
+            height: 350px;
+            overflow: scroll;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .bottom {
+            border-top: 2px solid #f7c14b85;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            textarea {
+                flex: 3;
+                height: 100%;
+                border: none;
+                padding: 20px;
+            }
+
+            button {
+                flex: 1;
+                background-color: #f7c14b85;
+                height: 100%;
+                border: none;
+                cursor: pointer;
+                
+            }
+        }
 
 
 
