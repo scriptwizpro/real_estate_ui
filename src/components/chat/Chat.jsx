@@ -51,7 +51,7 @@ function Chat(){
           </p>
         </div>
       </div>
-      {chat && 
+      {chat && (
         <div className="chatBox">
         <div className="top">
           <div className="user">
@@ -114,7 +114,8 @@ function Chat(){
           <textarea></textarea>
           <button>Send</button>
         </div>
-      </div>}
+      </div>
+      )}
     </div>
   );
 }
